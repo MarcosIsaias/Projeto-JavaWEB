@@ -10,13 +10,13 @@ public class ViewController {
         return "index";
     }
 
-    @RequestMapping("/ cadastro")
+    @RequestMapping("/")
     public String cadastro() {
         return "cadastro";
     }
 
-    @RequestMapping("/ home")
+    @RequestMapping("/home")
     public String home() {
-        return "personagem";
+        return "home";
     }
 }

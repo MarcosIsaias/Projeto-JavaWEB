@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +7,23 @@
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/bootstrap.css">
 
-    <title>Page Registration</title>
+    <title>Cadastro</title>
 </head>
 <body>
-    
+    <form action="" method="post">
+        
+        <h2>Seu cadastro</h2>
+
+        <label>usuário</label>
+        <input type="text" name="usuario">
+
+        <label>E-mail</label>
+        <input type="text" name="usuario">
+
+        <label>Senha</label>
+        <input type="password" name="usuario">
+
+        <input type="submit" class="btn btn-dark" value="CADASTRE-SE">
+    </form>
 </body>
 </html>
