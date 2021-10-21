@@ -1,0 +1,25 @@
+.flex {
+	display:flex;
+}
+
+.flex-wrap {
+	flex-wrap:wrap;
+}
+
+.flex-item {
+	flex:2;
+}
+
+.item {
+	text-align:center;
+	margin:3%;
+	font-size:1.2em;
+	font-weight:200;
+	background-color:#fcc;
+	}
+
+
+.container {
+	width:100%;
+	margin:auto;
+}
